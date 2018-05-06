@@ -1,0 +1,42 @@
+{
+  "name": "koa-weapp-session-boilerplate",
+  "homepage": "https://github.com/dbalas/koalerplate.git",
+  "description": "A simple Koa 2 boilerplate for Wechat Weapp Session Management.",
+  "keywords": [
+    "koa",
+    "koa2",
+    "boilerplate",
+    "koalerplate",
+    "wechat",
+    "weapp",
+    "api",
+    "es6"
+  ],
+  "author": "Cogons",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "cross-env NODE_ENVIRONMENT=production node index"
+  },
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "cross-env": "^5.1.4",
+    "dotenv": "^5.0.1",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-helmet": "^4.0.0",
+    "koa-logger": "^3.2.0",
+    "koa-redis": "^3.1.2",
+    "koa-respond": "^1.0.1",
+    "koa-router": "^7.4.0",
+    "koa-sslify": "^2.1.2",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
